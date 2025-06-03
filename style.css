@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+nav a {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: grey; /* You can change this to any color you like */
+  text-align: center;
+}
+nav {
+  text-align: center;
+}
+figcaption {
+  text-align: center;
+  font-size: 0.9em;
+}
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: #eee; /* Optional for visual consistency */
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
